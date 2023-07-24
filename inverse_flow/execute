@@ -1,0 +1,6 @@
+#first compile the program
+make
+
+#compute the inverse otical flow
+backward_flow I1.png I2.png ground_truth.flo inverse.flo mask.flo 4 3 1
+  
